@@ -1,0 +1,55 @@
+body {
+  font-family: 'Source Code Pro', 'monospace';
+  background-color: #D6E5E3;
+  color: #2D3319;
+}
+
+em {
+  font-weight: 600;
+}
+
+.wrapper {
+  width: 80%;
+  max-width: 50em;
+  min-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile_description {
+  font-family: 'Encode Sans Expanded', sans-serif;
+  letter-spacing: 0.1em;
+}
+
+.profile_pic {
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+.skills_item--high {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.skills_item--medium {
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+.skills_item--basic {
+  text-decoration: underline solid;
+}
+
+.titles-color {
+  color: #517664;
+}
+
+.u-center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.u-width_max {
+  max-width: max-content;
+}
