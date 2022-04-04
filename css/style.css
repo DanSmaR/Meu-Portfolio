@@ -34,6 +34,12 @@ em {
   shape-outside: margin-box;
   padding: 1em;
   background-color: #338a93;
+  transition: ease-in-out 0.2s;
+}
+
+.profile_pic:hover {
+  transform: scale(1.1) rotate(2turn);
+  box-shadow: 5px 10px 20px rgb(68, 67, 67);
 }
 
 .skills_item:nth-child(odd) {
