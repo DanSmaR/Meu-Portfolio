@@ -49,7 +49,7 @@ em {
 
 .skills_item:nth-child(odd):hover {
   text-shadow: none;
-  scale: 1.1;
+  transform: scale(1.1);
 }
 
 .skills_item--high {
