@@ -32,6 +32,15 @@ em {
   background-color: #718355;
 }
 
+.skills_item:nth-child(odd) {
+  text-shadow: 2px 2px 1px #97A97C;
+}
+
+.skills_item:nth-child(odd):hover {
+  text-shadow: none;
+  scale: 1.1;
+}
+
 .skills_item--high {
   font-size: 1.6rem;
   font-weight: bold;
