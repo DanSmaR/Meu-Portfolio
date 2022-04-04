@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Source Code Pro', 'monospace';
   background-color: #D6E5E3;
@@ -29,7 +33,7 @@ em {
   width: 30%;
   shape-outside: margin-box;
   padding: 1em;
-  background-color: #718355;
+  background-color: #338a93;
 }
 
 .skills_item:nth-child(odd) {
@@ -39,6 +43,7 @@ em {
 .skills_item:nth-child(odd):hover {
   text-shadow: none;
   scale: 1.1;
+  transition: 0.2s ease-in-out;
 }
 
 .skills_item--high {
