@@ -74,6 +74,10 @@ em {
   max-width: max-content;
 }
 
+.u-bfc-float {
+  display: flow-root;
+}
+
 
 /* debug css */
 
