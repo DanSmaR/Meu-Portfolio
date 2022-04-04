@@ -23,7 +23,11 @@ em {
 
 .profile_pic {
   border-radius: 50%;
-  max-width: 100%;
+  float: left;
+  margin-right: 2em;
+  margin-bottom: 1em;
+  width: 30%;
+  shape-outside: margin-box;
 }
 
 .skills_item--high {
