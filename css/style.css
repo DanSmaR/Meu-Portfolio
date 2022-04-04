@@ -53,3 +53,11 @@ em {
 .u-width_max {
   max-width: max-content;
 }
+
+
+/* debug css */
+
+.u-debug,
+.u-debug>* {
+  border: 1px solid red;
+}
