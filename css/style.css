@@ -28,6 +28,8 @@ em {
   margin-bottom: 1em;
   width: 30%;
   shape-outside: margin-box;
+  padding: 1em;
+  background-color: #718355;
 }
 
 .skills_item--high {
