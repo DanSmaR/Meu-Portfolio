@@ -38,12 +38,12 @@ em {
 
 .skills_item:nth-child(odd) {
   text-shadow: 2px 2px 1px #97A97C;
+  transition: 0.2s ease-in-out;
 }
 
 .skills_item:nth-child(odd):hover {
   text-shadow: none;
   scale: 1.1;
-  transition: 0.2s ease-in-out;
 }
 
 .skills_item--high {
